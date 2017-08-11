@@ -21,5 +21,20 @@
 \usepackage{graphicx}
 
 \usepackage{setspace}
-\newcommand{\bahasa}[1]{\noindent #1}
-\newcommand{\english}[1]{\hangindent=0.7cm #1 \indent #1}
+\newcommand{\bahasa}[1]{
+\noindent
+\leftskip=0em
+\parindent=0em
+\hangindent=\parindent
+#1}
+\newcommand{\english}[1]{
+\indent
+\parindent=-1em
+\hangindent=\parindent
+\leftskip=1em
+%\hangafter=-1
+#1}
+%\hangindent=1cm #1}
+%% \hangafter
+%% \hangindent=07cm
+%% #1}
