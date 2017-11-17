@@ -1,16 +1,29 @@
 \usepackage[pagestyles,extramarks]{titlesec}
-\titleformat{\chapter}[display]
-{\bfseries\Large}
-{\filleft\MakeUppercase{\chaptertitlename} \Huge\thechapter}
-{10ex}
-{\titlerule
-  \vspace{2ex}%
-  \filleft}
-[\vspace{2ex}%
-\titlerule]
+%% \titleformat{\chapter}[display]
+%% {\bfseries\Large}
+%% {\filleft\MakeUppercase{\chaptertitlename} \Huge\thechapter}
+%% {10ex}
+%% {\titlerule
+%%   \vspace{2ex}%
+%%   \filleft}
+%% [\vspace{2ex}
+%% \titlerule]
 
-% \title{Psikologi Esoteris}
-% \date{}
+
+\titleformat{\chapter}[hang]{\filleft\bfseries\huge}{\MakeUppercase{\chaptertitlename\hspace{.5pt}\thechapter}}{.5em}{}[\vspace{2ex}\titlerule \small Diterjemahkan dan diedit oleh team OSHO Indonesia. Fb/ig/twitter/pinterest: @oshoindonesia. Web: www.oshoindonesia.com \\ \vspace{5ex}\titlerule]
+
+%% \titleformat{\chapter}[display]
+%% {\normalfont\Large\filcenter\sffamily}
+%% {\titlerule[1pt]
+%% \vspace{1pt}
+%% \titlerule
+%% \vspace{1pc}
+%% {Diterjemahkan dan diedit oleh team OSHO Indonesia. Fb/ig/twitter/pinterest: @oshoindonesia. Web: www.oshoindonesia.com}
+%% {1pc}
+%% {\titlerule
+%% \vspace{1pc}
+%% \Huge}
+
 
 \settitlemarks*{chapter,section}
 
