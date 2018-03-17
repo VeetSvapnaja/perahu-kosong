@@ -20,7 +20,6 @@ dependable - diharapkan
 false - salah (dari bab 8, zen jepang)
 get the idea - mengerti
 gut feelings - 
-in the wake of it - dibalik semuanya itu
 matter - materi
 Nothingness - Ketiadaan
 Nature of things - sifat hal-hal
@@ -33,6 +32,7 @@ tension - kecemasan
 Let it be as it is - Biarkan apa adanya
 hold back - mencegahmu
 immediately - terang-terangan
+in the wake of it - dibalik semuanya itu
 in advance - sebelumnya
 in a way  - dengan cara tertentu / di satu sisi
 in a sense - dalam arti tertentu 
